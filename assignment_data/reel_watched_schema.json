@@ -1,0 +1,17 @@
+// This is a sample schema only
+// Some attributes might have the wrong data type (like an numeric value in string form, etc)
+
+{
+  "event_name": "reel_watched", // name of the event
+  "timestamp": 1683108003, // epoch in seconds when the event happened
+  "server_timestamp": 1683108123, // epoch in seconds when the event got processed
+  "user_uid": "ABCD1234", // unique id of the user who watched the reel
+  "streamer_uid": "ABCD3456", // unique id of the streamer who owns the reel
+  "reel_uid": "4b6dbb54-abc1-def2-ghi3-be6565e12020", // uuid of the reel
+  "category_uid": "freefire", // unique id of the game to which the reel belongs 
+  "origin_platform": "android", // app platform that created the event. can be android/ios
+  "app_version": "2.4.7", // version of the app
+  "reel_watch_duration": 1, // for how long the user watched this reel
+  "reel_duration": 33, // length of the reel
+  "replay_count": 1 // how many times was the reel replayed by the user
+}

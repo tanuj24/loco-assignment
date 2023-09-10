@@ -22,3 +22,5 @@ Provided are my submissions for the assignments where each code is havinng some 
 
 # Part 6: Airflow Orchestration
 - [Airflow Orchestration of Glue Jobs](AirflowGlue.py)
+
+![Cloud Architecture](proposed_Architecture.png)
